@@ -1,0 +1,22 @@
+{
+	"description": {
+		"translate": "enchantment.locks.shocking"
+	},
+	"supported_items": "#locks:locks",
+	"primary_items": "#locks:locks",
+	"weight": 5,
+	"max_level": 5,
+	"min_cost": {
+		"base": 2,
+		"per_level_above_first": 9
+	},
+	"max_cost": {
+		"base": 32,
+		"per_level_above_first": 9
+	},
+	"anvil_cost": 2,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {}
+}

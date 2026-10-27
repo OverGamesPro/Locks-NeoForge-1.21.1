@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="CC-BY-NC-3.0"
+issueTrackerURL="https://github.com/OverGamesPro/Locks-NeoForge-1.21.1/issues"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="Locks"
+displayURL="https://minecraft.curseforge.com/projects/locks"
+logoFile="logo.png"
+credits="Original mod by Melonslise. Textures: Hoonts, Artsy (ydgy). Sounds: freesound.org"
+authors="Melonslise (original); NeoForge 1.21.1 port"
+description='''
+Locks is a small, but unique Minecraft mod that introduces flexible and universal locks which can be dynamically attached to multiple blocks of any kind, including other mods, a fun lock picking mechanic as well as lots of other little, but useful tools and utilities.
+'''
+
+[[mixins]]
+config="locks.mixins.json"
+
+[[dependencies.${mod_id}]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" D ",
+		"DLD",
+		"DDD"
+	],
+	"key": {
+		"D": {
+			"tag": "c:gems/diamond"
+		},
+		"L": {
+			"item": "locks:steel_lock_mechanism"
+		}
+	},
+	"result": {
+		"id": "locks:diamond_lock"
+	}
+}

@@ -1,0 +1,26 @@
+# Gradle / build
+.gradle/
+build/
+out/
+run/
+run-data/
+src/generated/resources/.cache/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Внутренние заметки для работы с ИИ - в репозиторий не попадают
+HANDOFF.md

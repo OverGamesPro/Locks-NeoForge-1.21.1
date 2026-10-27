@@ -1,0 +1,19 @@
+{
+	"replace": false,
+	"entries": [
+		"locks:inject_abandoned_mineshaft",
+		"locks:inject_buried_treasure",
+		"locks:inject_desert_pyramid",
+		"locks:inject_jungle_temple",
+		"locks:inject_pillager_outpost",
+		"locks:inject_shipwreck_supply",
+		"locks:inject_shipwreck_treasure",
+		"locks:inject_simple_dungeon",
+		"locks:inject_stronghold_corridor",
+		"locks:inject_stronghold_crossing",
+		"locks:inject_underwater_ruin_big",
+		"locks:inject_underwater_ruin_small",
+		"locks:inject_village_village_toolsmith",
+		"locks:inject_woodland_mansion"
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"type": "neoforge:add_features",
+	"biomes": "#locks:has_locked_chests",
+	"features": "locks:lock_chests",
+	"step": "top_layer_modification"
+}
